@@ -1,8 +1,22 @@
 import java.util.Scanner;
 
 class kubus {
-    int volume, luas;
+    // Membuat private biar tidak gampang diaccess
+    private int volume, luas;
+
+    // Membuat Constructor
     kubus(int s) {
+        this.volume = s * s * s;
+        this.luas = 6 * s * s;
+    }
+
+    // Membuat Getter
+    public String getKubus() {
+        return "volume = " + volume + "\nLuas = " + luas;
+    }
+
+    // Membuat Setter
+    public void setKubus(Integer s) {
         this.volume = s * s * s;
         this.luas = 6 * s * s;
     }
@@ -17,7 +31,8 @@ public class Tugas {
         rw.close();
         
         kubus sisi = new kubus(Sisi);
-        System.out.println("Volume Kubus = " + sisi.volume);
-        System.out.println("Luas Kubus = " + sisi.luas);
+
+        sisi.setKubus(Sisi);
+        System.out.println(sisi.getKubus());
     }
 }
