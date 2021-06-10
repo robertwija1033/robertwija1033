@@ -1,8 +1,7 @@
-class bola extends tabung {
+class bola {
     private double volumeBola, luasBola;
     
     bola(double r) {
-        super(r);
         this.volumeBola = ((double) 4/3) * ((double) 22/7) * (r * r * r);
         this.luasBola = ((double) 4) * ((double) 22/7) * (r * r);
     }
