@@ -8,7 +8,7 @@ class tabung extends kubus {
     }
     // Membuat Getter
     public String getTabung() {
-        return "volume = " + volumeTabung+ "\nLuas = " + luasTabung;
+        return "volume Tabung di dalam Kubus= " + volumeTabung+ "\nLuas Tabung di dalam Kubus= " + luasTabung;
     }
 
     // Membuat Setter
