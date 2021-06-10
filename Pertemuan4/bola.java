@@ -9,7 +9,7 @@ class bola extends tabung {
 
     //Membuat Getter
     public String getBola() {
-        return "volume = " + volumeBola + "\nLuas = " + luasBola;
+        return "volume Bola di dalam Tabung = " + volumeBola + "\nLuas Bola di dalam Tabung = " + luasBola;
     }
 
     // Membuat Setter
