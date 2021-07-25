@@ -1,0 +1,3 @@
+Robert-08116387-WNA 479372793-2-true-1-No kamar : STA 1,STA 2,
+Steven-081736463-WNI 34927223-1-true-1-No kamar : STA 3,
+Excel-081374927-WNA 489013742-4-true-1-No kamar : STA 4,STA 5,STA 6,STA 7,
